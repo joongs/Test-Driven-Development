@@ -217,18 +217,18 @@ class Money{
 //}
 
 $5 + 10CHF = $10 (환율이 2:1일 경우)
-$5 * 2 = $10							ch01
-amount를 private으로 만들기 			ch04
-Dollar 부작용?							ch02
+$5 * 2 = $10						ch01
+amount를 private으로 만들기				ch04
+Dollar 부작용?						ch02
 Money 반올림?
-equals() 								ch03
+equals()						ch03
 hashCode()
 Equal null
 Equal object
-5CHF * 2 = 10CHF 						ch05
-Dollar / Franc 중복 					ch08? ch09?
-공용 equals 							ch06
-공용 times 								ch10
-Franc과 Dollar 비교하기 				ch07
-통화?									ch11
-testFrancMultiplication 				ch11
+5CHF * 2 = 10CHF					ch05
+Dollar / Franc 중복					ch08? ch09? ch11
+공용 equals						ch06
+공용 times						ch10
+Franc과 Dollar 비교하기					ch07
+통화?							ch09
+testFrancMultiplication 제거				ch11
