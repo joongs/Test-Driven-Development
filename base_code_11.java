@@ -1,8 +1,5 @@
 package Money;
 
-import Money.Dollar;
-import Money.Franc;
-import Money.Money;
 import junit.framework.TestCase;
 
 public class MoneyTest extends TestCase{
