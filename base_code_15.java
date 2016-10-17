@@ -1,10 +1,5 @@
 package Money;
 
-import Money.Bank;
-import Money.Expression;
-import Money.Money;
-import Money.Pair;
-import Money.Sum;
 import junit.framework.TestCase;
 
 public class MoneyTest extends TestCase{
