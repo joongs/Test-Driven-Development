@@ -1,3 +1,4 @@
+// MoneyTest.java
 package Money;
 
 import junit.framework.TestCase;
@@ -98,6 +99,7 @@ public class MoneyTest extends TestCase{
 	}
 }
 
+// Money.java
 package Money;
 
 //abstract class Money{
@@ -171,6 +173,7 @@ class Money implements Expression {
 	}
 }
 
+// Bank.java
 package Money;
 
 class Bank {
@@ -192,6 +195,7 @@ class Bank {
 	}
 }
 
+// Expression.java
 package Money;
 
 interface Expression {
@@ -199,6 +203,7 @@ interface Expression {
 	Money reduce(String to);
 }
 
+// Sum.java
 package Money;
 
 class Sum implements Expression {
@@ -216,6 +221,7 @@ class Sum implements Expression {
 	}
 }
 
+// Backlog 1
 $5 + 10CHF = $10 (환율이 2:1일 경우)
 $5 * 2 = $10						ch01
 amount를 private으로 만들기				ch04
@@ -234,6 +240,7 @@ Franc과 Dollar 비교하기				ch07
 testFrancMultiplication 제거			ch11
 
 ========================================================
+// Backlog 2
 $5 + 10CHF = $10 (환율이 2:1일 경우)
 $5 + $5 = $10 (간단한 예로 시작)			ch12 ch13
 $5 + $5에서 Money 반환하기
