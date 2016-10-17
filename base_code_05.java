@@ -1,3 +1,4 @@
+// MoneyTest.java
 package Money;
 
 import junit.framework.TestCase;
@@ -30,7 +31,7 @@ public class MoneyTest extends TestCase{
 }
 
 ////////////////////////////////////////////////////////////////
-
+// Dollar.java
 package Money;
 
 class Dollar {
