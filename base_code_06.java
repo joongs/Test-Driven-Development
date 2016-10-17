@@ -1,3 +1,4 @@
+// MoneyTest.java
 package Money;
 
 import junit.framework.TestCase;
@@ -37,7 +38,7 @@ public class MoneyTest extends TestCase{
 }
 
 /////////////////////////////////////////////////////////////////////////
-
+// Dollar.java
 package Money;
 
 class Dollar {
@@ -75,7 +76,7 @@ class Dollar {
 }
 
 /////////////////////////////////////////////////////////////////////
-
+// Franc.java
 package Money;
 
 public class Franc {
@@ -105,7 +106,7 @@ public class Franc {
 }
 
 /////////////////////////////////////////////////////////////////
-
+// Backlog 1
 $5 + 10CHF = $10 (환율이 2:1일 경우)
 $5 * 2 = $10						ch1
 amount를 private으로 만들기				ch4
