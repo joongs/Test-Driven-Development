@@ -1,7 +1,5 @@
 package Money;
 
-import Money.Expression;
-import Money.Money;
 import junit.framework.TestCase;
 
 public class MoneyTest extends TestCase{
@@ -152,6 +150,7 @@ package Money;
 interface Expression {
 
 }
+
 package Money;
 
 class Bank {
@@ -161,6 +160,7 @@ class Bank {
 		return Money.dollar(10);
 	}
 }
+
 
 $5 + 10CHF = $10 (환율이 2:1일 경우)
 $5 * 2 = $10						ch01
